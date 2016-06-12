@@ -1,8 +1,13 @@
-# Multi-file [Swagger](http://swagger.io) example
+# [IceBox-core](https://github.com/Chaotikum/icebox-service) openAPI specification
 
-Example of how to split up a large Swagger spec into smaller files.
+[See the project site](http://chaotikum.org/projekte:icebox)
 
-### [Read the blog post](http://azimi.me/2015/07/16/split-swagger-into-smaller-files.html)
+## Usage
 
-#### License
+Create a single file spec by:
+
+    npm install
+    npm start
+
+## License
 MIT
