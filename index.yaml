@@ -2,4 +2,15 @@ swagger: '2.0'
 info:
   $ref: ./info.yaml
 paths:
+  /drinks:
+    get:
+      $ref: ./paths/drink.yaml#/collection/get
+    post:
+      $ref: ./paths/drink.yaml#/collection/post
+  /drinks/{barcode}:
+    put:
+      200:
+        description: hello
 definitions:
+  Drink:
+   $ref: ./definitions/drink.yaml

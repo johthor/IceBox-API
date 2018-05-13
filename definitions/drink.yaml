@@ -1,0 +1,16 @@
+$schema: http://json-schema.org/schema#
+title: Drink Entity Schema
+type: object
+properties:
+  name:
+    type: string
+  barcode:
+    type: string
+  fullprice:
+    type: integer
+  discountprice:
+    type: integer
+  quantity:
+    type: integer
+  empties:
+    type: integer

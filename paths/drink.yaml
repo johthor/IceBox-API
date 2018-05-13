@@ -1,0 +1,15 @@
+collection:
+  get:
+    summary: List all drinks
+    tags:
+      - drink
+    responses:
+      200:
+        description: OK
+  post:
+    summary: Create a new drink
+    tags:
+      - drink
+    responses:
+      201:
+        description: Created
